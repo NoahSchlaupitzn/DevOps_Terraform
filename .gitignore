@@ -1,0 +1,11 @@
+# Terraform secrets & state
+terraform.tfvars
+*.tfstate
+*.tfstate.backup
+
+# Terraform working directory
+.terraform/
+.terraform.lock.hcl
+
+# Crash logs
+crash.log
